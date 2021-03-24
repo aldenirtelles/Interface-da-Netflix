@@ -6,18 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
     <title>MUSIFLIX</title>
+
+    
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css"> 
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css"> 
+
 </head>
 <body>
     <header>
         <div class="container">
             <nav>
                 <a href="#">Início</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
+                <a href="#">Recomendados</a>
                 <a href="#">Clássicos</a>
+                <a href="#">Séries</a>
             </nav>
             <img src="https://fontmeme.com/permalink/210319/7cf0635272ea81749f739966fdaf2e43.png" alt="musiflix-logo" border="0">
-            <!--h2 class="logo">MUSIFLIX</!--h2-->
             <nav>
                 <i class="fas fa-search"></i>
                 <i class="fas fa-bell"></i>
@@ -31,23 +39,128 @@
         <div class="filme-principal">
             <div class="container">
                 <img src="/img/logo the greatest.png" alt="filme-principal-logo" class="filme-logo">
-                <!--h3 class="titulo">O REI DO SHOW</!--h3-->
                 <p class="descricao">De origem humilde e desde a infância sonhando com um mundo mágico, P.T. Barnum (Hugh Jackman) desafia as barreiras sociais se casando com a filha do patrão do pai e dá o pontapé inicial na realização de seu maior desejo abrindo uma espécie de museu de curiosidades. O empreendimento fracassa, mas ele logo vislumbra uma ousada saída: produzir um grande show estrelado por freaks, fraudes, bizarrices e rejeitados de todos os tipos.</p>
                 <div class="botoes">
                     <button role="button" class="botao">
                         <i class="fas fa-play"></i>
-                        ASSISTIR AGORA
+                        <a class="btnplay" href='https://www.youtube.com/watch?v=r5R6CVp_JzU' target="_blank">ASSISTIR AGORA</a>
                     </button>
                     <button role="button" class="botao">
                         <i class="fas fa-info-circle"></i>
-                        MAIS INFORMAÇÕES
+                        <a class="btninformacoes" href='https://pt.wikipedia.org/wiki/The_Greatest_Showman' target= "_blank">MAIS INFORMAÇÕES</a>
                     </button>
                 </div>
             </div>
         </div>
     </main>
 
+    <div class="carrosel-filmes">
+        <div class="row-carousel">
+            <h3>Porque voce assistiu O Rei do Show</h3>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=PRyOvcOhtms" target="_blank"><img class="box-filme" src="img/capa aladdin.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=DTgGuFOh2M0" target="_blank"><img class="box-filme" src="img/capa dreamgirls.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=nFaiZI_UCVc" target="_blank"><img class="box-filme" src="img/capa newsies.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=8RBNHdG35WY" target="_blank"><img class="box-filme" src="img/capa mamma mia.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=zXvgkkNMi-4" target="_blank"><img class="box-filme" src="img/capa lalaland.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=LVLjp3_MQIw" target="_blank"><img class="box-filme" src="img/capa mouling rouge.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=jF2nWaWqVaQ" target="_blank"><img class="box-filme" src="img/capa a star is born.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=yzHuQPgO3Gs" target="_blank"><img class="box-filme" src="img/capa bela e a fera.jpg"></a>
+            </div>
+        </div>
+        <div class="row-carousel">
+            <h3>Clássicos</h3>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=qDKo8DNpwOw" target="_blank"><img class="box-filme" src="img/capa grease.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=qzOFC4XiqL0" target="_blank"><img class="box-filme" src="img/capa funny girl.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=AP2vrDQOfCU" target="_blank"><img class="box-filme" src="img/capa o magico de oz.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=EfL1J4QVhSM" target="_blank"><img class="box-filme" src="img/capa cabaret.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=5_EVHeNEIJY" target="_blank"><img class="box-filme" src="img/capa singing in the rain.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=jYk2Vx1z6lk" target="_blank"><img class="box-filme" src="img/capa sing street.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=o2WAMZRCbpU" target="_blank"><img class="box-filme" src="img/capa an american in paris.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=9EpaMmF9WVU" target="_blank"><img class="box-filme" src="img/capa chicago.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=0ZfsNGyaj50" target="_blank"><img class="box-filme" src="img/capa os miseraveis.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=DSCKfXpAGHc" target="_blank"><img class="box-filme" src="img/capa hamilton.jpg"></a>
+            </div>
+        </div>
+        <div class="row-carousel">
+            <h3>Séries</h3>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=f750kUVaYJA" target="_blank"><img class="box-filme" src="img/capa glee.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=e2e6KmVp2jY" target="_blank"><img class="box-filme" src="img/capa julie and the phantoms.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=RlaV8sJGhfc" target="_blank"><img class="box-filme" src="img/capa hsm serie.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=5be1Wa27U2o" target="_blank"><img class="box-filme" src="img/capa zoey.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=0KepaQnoApM" target="_blank"><img class="box-filme" src="img/capa violetta.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=DHf6sAszKVM" target="_blank"><img class="box-filme" src="img/capa hannah montana.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=0sk2pkelo7U" target="_blank"><img class="box-filme" src="img/capa sunny.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=XwoSe9OfM9Y" target="_blank"><img class="box-filme" src="img/capa brilhante victoria.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=_3H1Hppa3Gk" target="_blank"><img class="box-filme" src="img/capa programa de talentos.jpg"></a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=2VGtd1qWXwQ" target="_blank"><img class="box-filme" src="img/capa austin e ally.jpg"></a>
+            </div>
+        </div>
+
+    </div>
+
     <script src="https://kit.fontawesome.com/cc17cd5901.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 
 </body>
 </html>
