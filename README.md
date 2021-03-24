@@ -1,7 +1,7 @@
 # MUSIFLIX
 <em>Netflix Clone<em>
 - Projeto desenvolvido a partir da participação no bootcamp disponibilizado pela Digital Innovation One.
-- Foi recriada a página inicial da plataforma de streaming, Netflix, utilizando tecnologias HTML5, CSS3 e JavaScript.
+- Foi recriada a página inicial da plataforma de streaming, Netflix, utilizando tecnologias HTML5, CSS3 e JavaScript, com responsividade.
 - Inspirado na Netflix, desenvolveu-se o Musiflix, uma plataforma de streaming onde contém apenas conteúdo musical, filmes, séries e clássicos da broadway, perfeito para um amante de musicais.
  
 ![principal](https://user-images.githubusercontent.com/57646773/112241463-0b88e200-8c29-11eb-85d1-2af67c9a2a58.jpeg)
